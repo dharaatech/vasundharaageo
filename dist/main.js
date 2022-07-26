@@ -18,7 +18,6 @@ var watercolorMap = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/water
 var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });
-});
 
 //Addming marker in the center of map
 var singleMarker = L.marker([38.8610, 71.2761])
