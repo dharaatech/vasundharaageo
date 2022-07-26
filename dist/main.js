@@ -90,9 +90,9 @@ var withinjuri2020 =L.geoJSON(withinjuri2020, {
 });
 //Leaflet layer control
 var baseMaps = {
-    'Esri WorldImagery': Esri_WorldImagery,
+    'OSM': osm,
     'Water Color Map': watercolorMap,
-    'Stamen Toner': st
+    'Satellite': Esri_WorldImagery
 }
 
 var overlayMaps = {
